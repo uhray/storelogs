@@ -5,13 +5,13 @@ Storing logs from frontend in [Uhray Boilerplate](https://github.com/uhray/boile
 
 # Installation
 
- **Backend**
+### Backend
 
  ```
  npm install --save storelogs
  ```
 
- **Frontend**
+### Frontend
 
  ```
  bower install --save storelogs
@@ -21,7 +21,7 @@ Storing logs from frontend in [Uhray Boilerplate](https://github.com/uhray/boile
 
 # Usage
 
-  **Backend**
+### Backend
 
  ```js
  var crud = require('node-crud'),
@@ -33,7 +33,7 @@ Storing logs from frontend in [Uhray Boilerplate](https://github.com/uhray/boile
 
  Now it's setup.
 
- **Frontend**
+### Frontend
 
  ```js
  define(['storelogs'], function(storelogs) {
@@ -43,3 +43,5 @@ Storing logs from frontend in [Uhray Boilerplate](https://github.com/uhray/boile
    storelogs.error('my message', { here: 'is', some: 'data' });
  });
  ```
+
+ The default URL it pings for storing logs is `/api/storelogs`, but if you need to change that you can call `storelogs._setPath('my/new/path')`.
