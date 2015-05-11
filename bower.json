@@ -1,0 +1,21 @@
+{
+  "name": "storelogs",
+  "main": "dist/storelogs.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/uhray/storelogs.git",
+  "authors": [
+    "Robert Thompson <bobby@uhray.com>"
+  ],
+  "description": "store frontent logs",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "crud": "~2.0.14"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "storelogs",
+  "version": "1.0.0",
+  "description": "Storing logs from frontend in uhray boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-crud": "^2.0.8",
+    "debug": "^2.2.0",
+    "crud-mongoose": "^1.0.19",
+    "mongoose": "^4.0.2"
+  },
+  "devDependencies": {
+    "jscs": "^1.7.3",
+    "gulp": "^3.8.11"
+  }
+}
