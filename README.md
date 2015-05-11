@@ -35,9 +35,11 @@ Storing logs from frontend in [Uhray Boilerplate](https://github.com/uhray/boile
 
  **Frontend**
 
+ ```js
  define(['storelogs'], function(storelogs) {
    storelogs.debug('my message', { here: 'is', some: 'data' });
    storelogs.log('my message', { here: 'is', some: 'data' });
    storelogs.warn('my message', { here: 'is', some: 'data' });
    storelogs.error('my message', { here: 'is', some: 'data' });
  });
+ ```
