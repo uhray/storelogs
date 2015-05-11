@@ -1,19 +1,19 @@
 # Store Logs
 =========
 
-Storing logs from frontend in [Uhray Boilerplate](https://github.com/uhray/boilerplate)
+Storing logs from frontend in [Uhray Boilerplate](https://github.com/uhray/boilerplate).
 
 # Installation
 
-  ### Backend
+  **Backend**
 
-    ```
+    ```shell
       npm install --save storelogs
     ```
 
-  ### Frontend
+  **Frontend**
 
-    ```
+    ```shell
       bower install --save storelogs
     ```
 
@@ -21,7 +21,7 @@ Storing logs from frontend in [Uhray Boilerplate](https://github.com/uhray/boile
 
 # Usage
 
-  ### Backend
+  **Backend**
 
     ```js
       var crud = require('node-crud'),
@@ -33,7 +33,7 @@ Storing logs from frontend in [Uhray Boilerplate](https://github.com/uhray/boile
 
     Now it's setup.
 
-  ### Frontend
+  **Frontend**
 
     define(['storelogs'], function(storelogs) {
       storelogs.debug('my message', { here: 'is', some: 'data' });
